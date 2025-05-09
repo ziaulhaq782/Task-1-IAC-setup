@@ -10,25 +10,6 @@ This project provisions a secure and scalable AWS environment for a microservice
 - **Auto Scaling Group (ASG)** with Launch Template to host web service instances
 - **IAM Role** and **Instance Profile** for EC2 with scoped permissions to AWS services
 
-## Folder Structure
-
-terraform_microservices_env/
-
-├── main.tf
-├── terraform.tfvars
-├── variables.tf
-├── outputs.tf
-├── modules/
-│ ├── network/
-│ │ └── main.tf
-│ ├── security/
-│ │ └── main.tf
-│ ├── alb/
-│ │ └── main.tf
-│ ├── asg/
-│ │ └── main.tf
-│ └── iam/
-│ └── main.tf
 
 
 ## Requirements
