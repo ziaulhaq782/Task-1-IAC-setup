@@ -29,6 +29,7 @@ terraform_microservices_env/
 │ └── iam/
 │ └── main.tf
 
+
 ## Requirements
 
 - Terraform >= 1.0
@@ -68,3 +69,4 @@ Notes
     IAM role attached to EC2 allows basic logging and S3 read access. Modify IAM policy as needed.
 
     AMI used: Amazon Linux 2 (ami-0c55b159cbfafe1f0). You can change this in the ASG module.
+
