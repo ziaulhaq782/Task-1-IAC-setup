@@ -12,7 +12,23 @@ This project provisions a secure and scalable AWS environment for a microservice
 
 ## Folder Structure
 
-terraform_microservices_env/ ├── main.tf ├── terraform.tfvars ├── variables.tf ├── outputs.tf ├── modules/ │ ├── network/ │ │ └── main.tf │ ├── security/ │ │ └── main.tf │ ├── alb/ │ │ └── main.tf │ ├── asg/ │ │ └── main.tf │ └── iam/ │ └── main.tf
+terraform_microservices_env/
+
+├── main.tf
+├── terraform.tfvars
+├── variables.tf
+├── outputs.tf
+├── modules/
+│ ├── network/
+│ │ └── main.tf
+│ ├── security/
+│ │ └── main.tf
+│ ├── alb/
+│ │ └── main.tf
+│ ├── asg/
+│ │ └── main.tf
+│ └── iam/
+│ └── main.tf
 
 
 ## Requirements
